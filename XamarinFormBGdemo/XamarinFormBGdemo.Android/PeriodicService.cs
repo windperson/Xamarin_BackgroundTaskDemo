@@ -5,6 +5,7 @@ using Xamarin.Forms;
 
 namespace XamarinFormBGdemo.Droid
 {
+    [Service]
     public class PeriodicService : Service
     {
         public override IBinder OnBind(Intent intent)
